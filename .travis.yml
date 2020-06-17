@@ -23,4 +23,4 @@ after_success:
 - git init
 - git add --all .
 - git commit -m "Travis CI Auto Builder"
-- git push --quiet --force https://${NOTIFY_TOKEN}@https://github.com/Calvin-Xu/Sententiae.git master:master%
+- git push --quiet --force https://${NOTIFY_TOKEN}@github.com/Calvin-Xu/Sententiae.git master:master%
