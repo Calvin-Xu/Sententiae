@@ -5,34 +5,17 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 
 ## Quick Start
 
-### Create a new post
+感谢 [SumiMakito](https://github.com/SumiMakito) 的 [Journal](https://github.com/SumiMakito/hexo-theme-Journal) 主题
 
-``` bash
-$ hexo new "My New Post"
+
+```yaml
+---
+title: 吾輩は猫である
+intro: 吾輩は猫である。名前はまだない。
+featured_image: neko.jpg
+date: 2018-11-11 12:00:00
+tags: 
+    - Novel
+    - Japanese
+---
 ```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
